@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/**** Header CSS ****/
+body{
+    background-image: url('/images/QWqjgTu02.jpeg');
+    filter: grayscale(100%);
+    margin: 0%;
+    height: 100%;
+}
+html{
+    margin: 0%;
+    height: 100%;
+}
