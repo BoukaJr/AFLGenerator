@@ -1,4 +1,4 @@
-<p align="center"><a target="_blank"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAustralian_Football_League&psig=AOvVaw1yV7pat0vb6sgtavL6zsLS&ust=1611120165896000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIj35bugp-4CFQAAAAAdAAAAABAD" width="400"></a></p>
+<p align="center"><a target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Australian_Football_League.svg/1200px-Australian_Football_League.svg.png" width="400"></a></p>
 
 ## About AFL Team Generator
 
