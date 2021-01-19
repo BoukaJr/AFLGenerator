@@ -1,16 +1,11 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a target="_blank"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAustralian_Football_League&psig=AOvVaw1yV7pat0vb6sgtavL6zsLS&ust=1611120165896000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIj35bugp-4CFQAAAAAdAAAAABAD" width="400"></a></p>
 
-## About AFL Generator
+## About AFL Team Generator
 
-In a world impacted by COVID, getting that first job out of University is proving rather difficult. In an effort to prove myself as a worthy software engineer, I have created an AFL generator.
+In a world impacted by COVID, getting that first job out of University is proving rather difficult. In an effort to prove myself as a worthy software engineer, I have created an AFL team generator. My AFL team generator is better than others, due to the following features:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Simple, fast team generation.
+- Sleek and simple front end design.
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
