@@ -12,10 +12,15 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
+    public function testBasicPlayerTest()
+    {
+        $response = $this->get('api/players/');
+        $response->assertStatus(200);
+    }
+
     public function testBasicTest()
     {
-        $response = $this->get('/');
-
+        $response = $this->get('api/players/randomForwards');
         $response->assertStatus(200);
     }
 }

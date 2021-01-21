@@ -1919,11 +1919,7 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   // When the page is rendered generate a list of the players
-  created: function created() {
-    this.getForwards();
-    this.getMidfielders();
-    this.getDefenders();
-  }
+  created: function created() {}
 });
 
 /***/ }),
@@ -1939,6 +1935,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
+//
+//
 //
 //
 //
@@ -38295,8 +38293,7 @@ var render = function() {
           attrs: {
             forwards: _vm.forwards,
             midfielders: _vm.midfielders,
-            defenders: _vm.defenders,
-            positions: _vm.positions
+            defenders: _vm.defenders
           }
         })
       ],
@@ -38355,7 +38352,15 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "player" }, [
-        _vm._v("\n            " + _vm._s(_vm.aflplayer.name) + "\n        ")
+        _vm.aflplayer
+          ? _c("div", [
+              _vm._v(
+                "\n                " +
+                  _vm._s(_vm.aflplayer.name) +
+                  "\n            "
+              )
+            ])
+          : _vm._e()
       ])
     ])
   ])

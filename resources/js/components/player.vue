@@ -5,7 +5,9 @@
                 {{playerposition}}
             </div>
             <div class="player">
-                {{aflplayer.name}}
+                <div v-if="aflplayer">
+                    {{aflplayer.name}}
+                </div>
             </div>
         </div>
     </div>

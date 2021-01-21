@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="players">
-            <players :forwards="forwards" :midfielders="midfielders" :defenders="defenders" :positions="positions"/>
+            <players :forwards="forwards" :midfielders="midfielders" :defenders="defenders"/>
         </div>
         <div class="button-div" v-on:click="rerollPlayers">
             <div class="button-background">
@@ -36,7 +36,7 @@ export default {
     },
     methods: {
         // Function to use on click
-            rerollPlayers() {
+        rerollPlayers() {
             this.getForwards();
             this.getMidfielders();
             this.getDefenders();
@@ -74,9 +74,7 @@ export default {
     },
     // When the page is rendered generate a list of the players
     created() {
-        this.getForwards();
-        this.getMidfielders();
-        this.getDefenders();
+
     }
 }
 </script>
