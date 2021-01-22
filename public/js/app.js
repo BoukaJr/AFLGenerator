@@ -1866,8 +1866,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -1935,11 +1933,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
-//
-//
-//
-//
-//
 //
 //
 //
@@ -6620,7 +6613,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@font-face {\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/sixcaps-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/sixcaps-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.heading[data-v-489dbf56]{\n    position: relative;\n    margin: auto;\n    top: 20px;\n    left: 50%;\n    width: 450px;\n    height: 200px;\n    margin-left: -225px;\n}\n.heading-background[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    position: absolute;\n    width: 437px;\n    height: 150px;\n    background: #FF5757;\n    border-radius: 22px;\n}\n.heading-text[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 64px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.button-background[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    position: absolute;\n    width: 437px;\n    height: 150px;\n    background: #FF5757;\n    border-radius: 22px;\n}\n.button-div[data-v-489dbf56]{\n    position: relative;\n    margin: auto;\n    top: 20px;\n    left: 50%;\n    width: 450px;\n    height: 200px;\n    margin-left: -225px;\n}\n.button-text[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 64px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.button-div[data-v-489dbf56]:hover{\n    color: white;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@font-face {\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/sixcaps-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/sixcaps-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.heading[data-v-489dbf56]{\n    position: relative;\n    margin: auto;\n    top: 20px;\n    left: 50%;\n    width: 450px;\n    height: 65px;\n    margin-left: -225px;\n}\n.heading-background[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    position: absolute;\n    width: 437px;\n    height: 150px;\n    background: #FF5757;\n    border-radius: 22px;\n}\n.heading-text[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 64px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.button-background[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    position: absolute;\n    width: 200px;\n    height: 100px;\n    background: #FF5757;\n    border-radius: 22px;\n}\n.button-div[data-v-489dbf56]{\n    position: absolute;\n    margin: auto;\n    top: 80%;\n    left: 80%;\n    width: 450px;\n    height: 200px;\n    margin-left: -225px;\n}\n.button-text[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 40px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.button-div[data-v-489dbf56]:hover{\n    color: white;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6644,7 +6637,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@font-face {\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/sixcaps-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/sixcaps-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.player-container[data-v-fecbd728]{\n    justify-content: left;\n    width: 400px;\n    height: 130px;\n    padding: 5px;\n}\n.background[data-v-fecbd728]{\n    margin: auto;\n    width: 380px;\n    height: 120px;\n    border-radius: 22px;\n    position: relative;\n}\n.player[data-v-fecbd728]{\n    color: white;\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 60px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.position[data-v-fecbd728]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 120px;\n    position: absolute;\n    white-space: nowrap;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@font-face {\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/sixcaps-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/sixcaps-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.player-container[data-v-fecbd728]{\n    justify-content: left;\n    width: 200px;\n    height: 110px;\n    padding: 5px;\n}\n.background[data-v-fecbd728]{\n    margin: auto;\n    width: 170px;\n    height: 84px;\n    border-radius: 22px;\n    position: relative;\n}\n.player[data-v-fecbd728]{\n    color: white;\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 60px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.position[data-v-fecbd728]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 120px;\n    position: absolute;\n    white-space: nowrap;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6668,7 +6661,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-d357cb92]{\n    justify-content: center;\n    display: flex;\n    position: relative;\n    margin: auto;\n    top: 20px;\n    width: 100%;\n    height: 130px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-d357cb92]{\n    justify-content: center;\n    display: flex;\n    position: relative;\n    margin: auto;\n    top: 20px;\n    width: 100%;\n    height: 100px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38315,8 +38308,6 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "heading" }, [
-      _c("div", { staticClass: "heading-background" }),
-      _vm._v(" "),
       _c("div", { staticClass: "heading-text" }, [
         _vm._v("\n            Quinn's AFL Team Generator\n        ")
       ])
@@ -38347,21 +38338,11 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "player-container" }, [
     _c("div", { staticClass: "background", style: { background: _vm.color } }, [
-      _c("div", { staticClass: "position", style: { color: _vm.poscolor } }, [
-        _vm._v("\n            " + _vm._s(_vm.playerposition) + "\n        ")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "player" }, [
-        _vm.aflplayer
-          ? _c("div", [
-              _vm._v(
-                "\n                " +
-                  _vm._s(_vm.aflplayer.name) +
-                  "\n            "
-              )
-            ])
-          : _vm._e()
-      ])
+      _vm.aflplayer
+        ? _c("div", { staticClass: "player" }, [
+            _vm._v("\n            " + _vm._s(_vm.aflplayer.name) + "\n        ")
+          ])
+        : _vm._e()
     ])
   ])
 }

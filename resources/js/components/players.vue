@@ -131,6 +131,6 @@ export default {
     margin: auto;
     top: 20px;
     width: 100%;
-    height: 130px;
+    height: 100px;
 }
 </style>

@@ -10905,16 +10905,27 @@ a.text-dark:focus {
 
 /**** Header CSS ****/
 
+html,
 body {
-  background-image: url("/images/QWqjgTu02.jpeg");
-  filter: grayscale(100%);
   margin: 0%;
   height: 100%;
 }
 
-html {
-  margin: 0%;
+#app-div {
   height: 100%;
+}
+
+#afl-div {
+  background-color: #5772FF;
+  height: 100%;
+}
+
+#afl-logo {
+  height: 300px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
 }
 
 

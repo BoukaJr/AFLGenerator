@@ -1,13 +1,8 @@
 <template>
     <div class="player-container">
         <div class="background" v-bind:style="{background:color}">
-            <div class="position" v-bind:style="{color:poscolor}">
-                {{playerposition}}
-            </div>
-            <div class="player">
-                <div v-if="aflplayer">
-                    {{aflplayer.name}}
-                </div>
+            <div v-if="aflplayer" class="player">
+                {{aflplayer.name}}
             </div>
         </div>
     </div>
@@ -31,15 +26,15 @@ export default{
 
 .player-container{
     justify-content: left;
-    width: 400px;
-    height: 130px;
+    width: 200px;
+    height: 110px;
     padding: 5px;
 }
 
 .background{
     margin: auto;
-    width: 380px;
-    height: 120px;
+    width: 170px;
+    height: 84px;
     border-radius: 22px;
     position: relative;
 }

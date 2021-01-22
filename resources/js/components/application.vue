@@ -1,8 +1,6 @@
 <template>
     <div>
         <div class="heading">
-            <div class="heading-background">
-            </div>
             <div class="heading-text">
                 Quinn's AFL Team Generator
             </div>
@@ -94,7 +92,7 @@ export default {
     top: 20px;
     left: 50%;
     width: 450px;
-    height: 200px;
+    height: 65px;
     margin-left: -225px;
 }
 
@@ -127,17 +125,17 @@ export default {
     left: 50%;
     top: 50%;
     position: absolute;
-    width: 437px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     background: #FF5757;
     border-radius: 22px;
 }
 
 .button-div{
-    position: relative;
+    position: absolute;
     margin: auto;
-    top: 20px;
-    left: 50%;
+    top: 80%;
+    left: 80%;
     width: 450px;
     height: 200px;
     margin-left: -225px;
@@ -150,7 +148,7 @@ export default {
     font-family: six_capsregular;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
+    font-size: 40px;
     line-height: 84px;
     position: absolute;
     white-space: nowrap;

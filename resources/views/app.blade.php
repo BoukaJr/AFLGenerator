@@ -3,12 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>AFL Players</title>
-        <link href = {{ asset("css/app.css") }} rel="stylesheet" />
+        <link href = {{ asset("css/app.css") }} rel="stylesheet"/>
     </head>
-    <body style="">
-        <div id="app">
-            <application></application>
+    <body>
+        <div class="row" id="app-div">
+            <div class="col-sm-6" id="afl-div">
+                <img src="/images/AFL.png" id="afl-logo">
+            </div>
+            <div class="col-sm-6">
+                <div id="app">
+                    <application></application>
+                </div>
+            </div>
         </div>
-        <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
+
+<script src="{{ mix('js/app.js') }}"></script>
