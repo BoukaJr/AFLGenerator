@@ -12,7 +12,7 @@
             <div class="button-background">
             </div>
             <div class="button-text">
-                Make me a new team!
+                Create team
             </div>
         </div>
     </div>
@@ -80,8 +80,8 @@ export default {
 <style scoped>
 @font-face {
     font-family: 'six_capsregular';
-    src: url('/fonts/Six Caps/sixcaps-regular-webfont.woff2') format('woff2'),
-         url('/fonts/Six Caps/sixcaps-regular-webfont.woff') format('woff');
+    src: url('/fonts/Six Caps/adamina-regular-webfont.woff2') format('woff2'),
+         url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -93,18 +93,8 @@ export default {
     left: 50%;
     width: 450px;
     height: 65px;
+    padding-bottom: 150px;
     margin-left: -225px;
-}
-
-.heading-background{
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    width: 437px;
-    height: 150px;
-    background: #FF5757;
-    border-radius: 22px;
 }
 
 .heading-text{
@@ -114,10 +104,11 @@ export default {
     font-family: six_capsregular;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
+    font-size: 48px;
     line-height: 84px;
     position: absolute;
     white-space: nowrap;
+    color: #5772FF;
 }
 
 .button-background{
@@ -125,19 +116,19 @@ export default {
     left: 50%;
     top: 50%;
     position: absolute;
-    width: 200px;
-    height: 100px;
-    background: #FF5757;
+    width: 155px;
+    height: 65px;
+    background: #5772FF;
     border-radius: 22px;
 }
 
 .button-div{
-    position: absolute;
+    position: relative;
     margin: auto;
-    top: 80%;
+    top: 70%;
     left: 80%;
-    width: 450px;
-    height: 200px;
+    width: 155px;
+    height: 65px;
     margin-left: -225px;
 }
 
@@ -148,7 +139,7 @@ export default {
     font-family: six_capsregular;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 22px;
     line-height: 84px;
     position: absolute;
     white-space: nowrap;

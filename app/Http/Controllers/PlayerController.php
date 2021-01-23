@@ -135,11 +135,11 @@ class PlayerController extends Controller
         if ($existingPlayer) {
             $existingPlayer->name = $request['name'];
             $existingPlayer->position = $request['position'];
-            $existingPlayer->originalclub = $request['originalclub'];
+            $existingPlayer->originalclub = $request['originalClub'];
             $existingPlayer->averageDisposals = $request['averageDisposals'];
             $existingPlayer->averageMarks = $request['averageMarks'];
             $existingPlayer->goals = $request['goals'];
-            $existingPlayer->points = $request['points'];
+            $existingPlayer->points = $request['behinds'];
             $existingPlayer->allAustralian = $request['allAustralian'];
             $existingPlayer->save();
             return $existingPlayer;

@@ -1,6 +1,6 @@
 <template>
     <div class="player-container">
-        <div class="background" v-bind:style="{background:color}">
+        <div class="background">
             <div v-if="aflplayer" class="player">
                 {{aflplayer.name}}
             </div>
@@ -37,6 +37,9 @@ export default{
     height: 84px;
     border-radius: 22px;
     position: relative;
+    background-color: #5772FF;
+    overflow: hidden;
+    text-overflow: clip; 
 }
 
 .player{
@@ -47,7 +50,7 @@ export default{
     font-family: six_capsregular;
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 18px;
     line-height: 84px;
     position: absolute;
     white-space: nowrap;
