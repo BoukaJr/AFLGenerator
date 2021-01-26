@@ -11,6 +11,8 @@
         <div class="button-div" v-on:click="rerollPlayers">
             <div class="button-background">
             </div>
+            <div class="button-background-white">
+            </div>
             <div class="button-text">
                 Create team
             </div>
@@ -88,13 +90,14 @@ export default {
 
 .heading{
     position: relative;
-    margin: auto;
-    top: 20px;
     left: 50%;
     width: 450px;
-    height: 65px;
-    padding-bottom: 150px;
+    height: 120px;
     margin-left: -225px;
+}
+
+.players{
+    
 }
 
 .heading-text{
@@ -116,9 +119,20 @@ export default {
     left: 50%;
     top: 50%;
     position: absolute;
-    width: 155px;
+    width: 170px;
     height: 65px;
     background: #5772FF;
+    border-radius: 22px;
+}
+
+.button-background-white{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    width: 167px;
+    height: 62px;
+    background: #FFFFFF;
     border-radius: 22px;
 }
 
@@ -126,10 +140,10 @@ export default {
     position: relative;
     margin: auto;
     top: 70%;
-    left: 80%;
-    width: 155px;
+    width: 170px;
     height: 65px;
-    margin-left: -225px;
+    margin-top: 8px;
+    color: #5772FF;
 }
 
 .button-text{
@@ -146,6 +160,6 @@ export default {
 }
 
 .button-div:hover{
-    color: white;
+    color: black;
 }
 </style>

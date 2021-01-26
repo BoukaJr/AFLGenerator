@@ -11,11 +11,14 @@
             <div class="col-sm-6" id="afl-div">
                 <img src="/images/AFL.png" id="afl-logo">
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6" id="app-div">
                 <div id="app">
                     <application></application>
                 </div>
             </div>
+        </div>
+        <div id="footy-logo">
+            FOOTY
         </div>
     </body>
 </html>

@@ -34,7 +34,7 @@ export default{
 .background{
     margin: auto;
     width: 170px;
-    height: 84px;
+    height: 80px;
     border-radius: 22px;
     position: relative;
     background-color: #5772FF;

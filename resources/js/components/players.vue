@@ -109,8 +109,7 @@ export default {
     display: flex;
     position: relative;
     margin: auto;
-    top: 20px;
     width: 100%;
-    height: 100px;
+    height: 94px;
 }
 </style>
