@@ -17,54 +17,87 @@
         </div>
         <!-- Container for the half forward line -->
         <div class="container">
+            <div id="position-logo">
+                HALF FORWARD
+            </div>
             <div v-for="n in 3">
                 <player
                     :playerposition='"Half Forward"'
                     :aflplayer="forwards[(n+2)]"
                 />
             </div>
+            <div id="position-logo">
+                HALF FORWARD
+            </div>
         </div>
         <!-- Container for the centre line -->
         <div class="container">
+            <div id="position-logo">
+                CENTRE
+            </div>
             <div v-for="n in 3"> 
                 <player
                     :playerposition='"Centre"'
                     :aflplayer="midfielders[(n)]"
                 />
             </div>
+            <div id="position-logo">
+                CENTRE
+            </div>
         </div>
         <!-- Container for the half back line -->
         <div class="container">
+            <div id="position-logo">
+                HALF BACK
+            </div>
             <div v-for="n in 3">
                 <player
                     :playerposition='"Half Back"'
                     :aflplayer="defenders[(n-1)]"
                 />
             </div>
+            <div id="position-logo">
+                HALF BACK
+            </div>
         </div>
         <!-- Container for the back line -->
         <div class="container">
+            <div id="position-logo">
+                BACK
+            </div>
             <div v-for="n in 3">
                 <player
                     :playerposition='"Back"'
                     :aflplayer="defenders[(n+2)]"
                 />
             </div>
+            <div id="position-logo">
+                BACK
+            </div>
         </div>
         <!-- Container for the followers -->
         <div>
             <div class="container">
+                <div id="position-logo">
+                    FOLLOWERS
+                </div>
                 <div v-for="n in 3"> 
                     <player
                         :playerposition='"Follower"'
                         :aflplayer="midfielders[(n+3)]"
                     />
                 </div>
+                <div id="position-logo">
+                    FOLLOWERS
+                </div>
             </div>
         </div>
         <!-- Containers for the interchange bench -->
         <div>
             <div class="container">
+                <div id="position-logo">
+                    INTERCHANGE
+                </div>
                 <div>
                     <player
                         :playerposition='"Interchange"'
@@ -82,6 +115,9 @@
                         :playerposition='"Interchange"'
                         :aflplayer="forwards[6]"
                     />
+                </div>
+                <div id="position-logo">
+                    INTERCHANGE
                 </div>
             </div>
         </div>
@@ -128,7 +164,7 @@ export default {
     font-size: 24px;
     z-index: -1;
     color: #44CCCC;
-    opacity: 15%;
+    opacity: 25%;
     top: 25%;
     position: relative;
     flex-grow: 1;
