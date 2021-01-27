@@ -2,11 +2,17 @@
     <div>
         <!-- Container for the forward line -->
         <div class="container">
+            <div id="position-logo">
+                FORWARD
+            </div>
             <div v-for="n in 3">
                 <player
                     :playerposition='"Forward"'
                     :aflplayer="forwards[(n-1)]"
                 />
+            </div>
+            <div id="position-logo">
+                FORWARD
             </div>
         </div>
         <!-- Container for the half forward line -->
@@ -111,5 +117,21 @@ export default {
     margin: auto;
     width: 100%;
     height: 94px;
+}
+
+#position-logo{
+    font-family: 'six_capsregular';
+    src: url('/fonts/Six Caps/adamina-regular-webfont.woff2') format('woff2'),
+         url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    z-index: -1;
+    color: #44CCCC;
+    opacity: 15%;
+    top: 25%;
+    position: relative;
+    flex-grow: 1;
+    text-align: center;
 }
 </style>

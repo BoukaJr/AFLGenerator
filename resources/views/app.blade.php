@@ -15,10 +15,10 @@
                 <div id="app">
                     <application></application>
                 </div>
+                <div id="footy-logo">
+                    FOOTY
+                </div>
             </div>
-        </div>
-        <div id="footy-logo">
-            FOOTY
         </div>
     </body>
 </html>
