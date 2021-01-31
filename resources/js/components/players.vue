@@ -170,4 +170,10 @@ export default {
     flex-grow: 1;
     text-align: center;
 }
+
+@media only screen and (max-width: 2160px){
+    #position-logo{
+        display: none;
+    }
+}
 </style>

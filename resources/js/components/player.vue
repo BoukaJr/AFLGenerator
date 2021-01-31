@@ -4,6 +4,18 @@
             <div v-if="aflplayer" class="player">
                 {{aflplayer.name}}
             </div>
+            <div v-if="aflplayer" class="playerstats">
+                <div v-if="aflplayer.position=='Forward'">
+                    Goals kicked: {{aflplayer.goals}}
+                </div>
+                <div v-if="aflplayer.position=='Midfielder'">
+                    Average Disposals: {{aflplayer.averageDisposals}}
+                </div>
+                <div v-if="aflplayer.position=='Defender'">
+                    Average Marks: {{aflplayer.averageMarks}}
+                </div>
+            </div>
+            
         </div>
     </div>
 </template>
@@ -46,11 +58,25 @@ export default{
     color: white;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 50%;
+    top: 45%;
     font-family: six_capsregular;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
+    line-height: 84px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.playerstats{
+    color: white;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 70%;
+    font-family: six_capsregular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
     line-height: 84px;
     position: absolute;
     white-space: nowrap;

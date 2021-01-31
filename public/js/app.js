@@ -1945,6 +1945,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['aflplayer', 'playerposition', 'poscolor', 'color']
 });
@@ -6637,7 +6649,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@font-face {\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/adamina-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.heading[data-v-489dbf56]{\n    position: relative;\n    left: 50%;\n    width: 450px;\n    height: 120px;\n    margin-left: -225px;\n}\n.players[data-v-489dbf56]{\n}\n.heading-text[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 48px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n    color: #5772FF;\n}\n.button-background[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    position: absolute;\n    width: 170px;\n    height: 65px;\n    background: #5772FF;\n    border-radius: 22px;\n}\n.button-background-white[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    position: absolute;\n    width: 167px;\n    height: 62px;\n    background: #FFFFFF;\n    border-radius: 22px;\n}\n.button-div[data-v-489dbf56]{\n    position: relative;\n    margin: auto;\n    top: 70%;\n    width: 170px;\n    height: 65px;\n    margin-top: 8px;\n    color: #5772FF;\n}\n.button-text[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 22px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.button-div[data-v-489dbf56]:hover{\n    color: black;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@font-face {\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/adamina-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.heading[data-v-489dbf56]{\n    position: relative;\n    left: 50%;\n    width: 450px;\n    height: 120px;\n    margin-left: -225px;\n}\n.players[data-v-489dbf56]{\n}\n.heading-text[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 48px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n    color: #5772FF;\n}\n.button-background[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    position: absolute;\n    width: 170px;\n    height: 65px;\n    background: #5772FF;\n    border-radius: 22px;\n}\n.button-background-white[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    position: absolute;\n    width: 167px;\n    height: 62px;\n    background: #FFFFFF;\n    border-radius: 22px;\n}\n.button-div[data-v-489dbf56]{\n    position: relative;\n    margin: auto;\n    top: 70%;\n    width: 170px;\n    height: 65px;\n    margin-top: 8px;\n    color: #5772FF;\n}\n.button-text[data-v-489dbf56]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 22px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.button-div[data-v-489dbf56]:hover{\n    color: black;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6661,7 +6673,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@font-face {\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/sixcaps-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/sixcaps-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.player-container[data-v-fecbd728]{\n    justify-content: left;\n    width: 200px;\n    height: 110px;\n    padding: 5px;\n}\n.background[data-v-fecbd728]{\n    margin: auto;\n    width: 170px;\n    height: 80px;\n    border-radius: 22px;\n    position: relative;\n    background-color: #5772FF;\n    overflow: hidden;\n    text-overflow: clip;\n}\n.player[data-v-fecbd728]{\n    color: white;\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 18px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.position[data-v-fecbd728]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 120px;\n    position: absolute;\n    white-space: nowrap;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@font-face {\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/sixcaps-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/sixcaps-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.player-container[data-v-fecbd728]{\n    justify-content: left;\n    width: 200px;\n    height: 110px;\n    padding: 5px;\n}\n.background[data-v-fecbd728]{\n    margin: auto;\n    width: 170px;\n    height: 80px;\n    border-radius: 22px;\n    position: relative;\n    background-color: #5772FF;\n    overflow: hidden;\n    text-overflow: clip;\n}\n.player[data-v-fecbd728]{\n    color: white;\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 45%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 18px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.playerstats[data-v-fecbd728]{\n    color: white;\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 70%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 12px;\n    line-height: 84px;\n    position: absolute;\n    white-space: nowrap;\n}\n.position[data-v-fecbd728]{\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    font-family: six_capsregular;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 120px;\n    position: absolute;\n    white-space: nowrap;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6685,7 +6697,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-d357cb92]{\n    justify-content: center;\n    display: flex;\n    position: relative;\n    margin: auto;\n    width: 100%;\n    height: 94px;\n}\n#position-logo[data-v-d357cb92]{\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/adamina-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n    font-size: 24px;\n    z-index: -1;\n    color: #44CCCC;\n    opacity: 25%;\n    top: 25%;\n    position: relative;\n    flex-grow: 1;\n    text-align: center;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-d357cb92]{\n    justify-content: center;\n    display: flex;\n    position: relative;\n    margin: auto;\n    width: 100%;\n    height: 94px;\n}\n#position-logo[data-v-d357cb92]{\n    font-family: 'six_capsregular';\n    src: url('/fonts/Six Caps/adamina-regular-webfont.woff2') format('woff2'),\n         url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n    font-size: 24px;\n    z-index: -1;\n    color: #44CCCC;\n    opacity: 25%;\n    top: 25%;\n    position: relative;\n    flex-grow: 1;\n    text-align: center;\n}\n@media only screen and (max-width: 2160px){\n#position-logo[data-v-d357cb92]{\n        display: none;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38367,6 +38379,40 @@ var render = function() {
       _vm.aflplayer
         ? _c("div", { staticClass: "player" }, [
             _vm._v("\n            " + _vm._s(_vm.aflplayer.name) + "\n        ")
+          ])
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.aflplayer
+        ? _c("div", { staticClass: "playerstats" }, [
+            _vm.aflplayer.position == "Forward"
+              ? _c("div", [
+                  _vm._v(
+                    "\n                Goals kicked: " +
+                      _vm._s(_vm.aflplayer.goals) +
+                      "\n            "
+                  )
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.aflplayer.position == "Midfielder"
+              ? _c("div", [
+                  _vm._v(
+                    "\n                Average Disposals: " +
+                      _vm._s(_vm.aflplayer.averageDisposals) +
+                      "\n            "
+                  )
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.aflplayer.position == "Defender"
+              ? _c("div", [
+                  _vm._v(
+                    "\n                Average Marks: " +
+                      _vm._s(_vm.aflplayer.averageMarks) +
+                      "\n            "
+                  )
+                ])
+              : _vm._e()
           ])
         : _vm._e()
     ])
