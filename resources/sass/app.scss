@@ -7,7 +7,7 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-body{
+html, body{
     margin: 0%;
     min-height: 970px;
     font-family: 'six_capsregular';
@@ -15,6 +15,7 @@ body{
          url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    user-select: none;
 }
 
 /* Set height to 100% for relevant containers */
@@ -43,7 +44,7 @@ html, body, #content-div, #afl-div, #app-div{
 }
 
 #afl-logo{
-    width: 95%;
+    width: 90%;
     height: auto;
 }
 
@@ -60,7 +61,7 @@ html, body, #content-div, #afl-div, #app-div{
     margin: 0px;
 }
 
-@media only screen and (max-width: 1530px){
+@media only screen and (max-width: 1650px){
     #footy-label{
         display: none;
     }

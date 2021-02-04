@@ -162,6 +162,7 @@ export default {
 </script>
 
 <style scoped>
+
 .container{
     justify-content: center;
     display: flex;

@@ -16,7 +16,8 @@ export default {
 </script>
 
 <style scoped>
-#position-logo-full{
+
+#position-logo-full, #position-logo-short{
     font-size: 24px;
     z-index: -1;
     color: #44CCCC;
@@ -28,15 +29,6 @@ export default {
 }
 
 #position-logo-short{
-    
-    font-size: 24px;
-    z-index: -1;
-    color: #44CCCC;
-    opacity: 25%;
-    top: 25%;
-    position: relative;
-    flex-grow: 1;
-    text-align: center;
     display: none;
 }
 
@@ -57,4 +49,5 @@ export default {
         display: none;
     }
 }
+
 </style>

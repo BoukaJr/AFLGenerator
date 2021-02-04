@@ -1,7 +1,7 @@
 <template>
     <div class="player-container">
         <div class="background">
-            <div v-if="aflplayer" class="player">
+            <div v-if="aflplayer" class="player-name">
                 {{aflplayer.name}}
             </div>
             <div v-if="aflplayer" class="playerstats">
@@ -28,14 +28,6 @@ export default{
 
 <style scoped>
 
-@font-face {
-    font-family: 'six_capsregular';
-    src: url('/fonts/Six Caps/sixcaps-regular-webfont.woff2') format('woff2'),
-         url('/fonts/Six Caps/sixcaps-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .player-container{
     justify-content: left;
     width: 175px;
@@ -54,7 +46,7 @@ export default{
     text-overflow: clip; 
 }
 
-.player{
+.player-name{
     color: white;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -92,13 +84,12 @@ export default{
         width: 100px;
         height: 60px;
     }
-    .player{
+    .player-name{
         font-size: 10px;
     }
     .playerstats{
         font-size: 8px;
     }
 }
-
 
 </style>

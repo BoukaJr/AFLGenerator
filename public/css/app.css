@@ -10903,6 +10903,7 @@ a.text-dark:focus {
   }
 }
 
+html,
 body {
   margin: 0%;
   min-height: 970px;
@@ -10910,6 +10911,10 @@ body {
   src: url("/fonts/Six Caps/adamina-regular-webfont.woff2") format("woff2"), url("/fonts/Six Caps/adamina-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 /* Set height to 100% for relevant containers */
@@ -10947,7 +10952,7 @@ body,
 }
 
 #afl-logo {
-  width: 95%;
+  width: 90%;
   height: auto;
 }
 
@@ -10964,7 +10969,7 @@ body,
   margin: 0px;
 }
 
-@media only screen and (max-width: 1530px) {
+@media only screen and (max-width: 1650px) {
   #footy-label {
     display: none;
   }
