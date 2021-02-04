@@ -7,48 +7,50 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-/**** Header CSS ****/
-html, body{
+body{
     margin: 0%;
-    height: 100%;
-}
-
-#app-div{
-    height: 100%;
-    min-height: 995px;
-}
-
-#app{
-    position: relative;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-}
-
-#afl-div{
-    background-color: #5772FF;
-    height: 100%;
-}
-
-#afl-logo{
-    height: 431px;
-    width: auto;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    position: absolute;
-}
-
-#footy-logo{
+    min-height: 970px;
     font-family: 'six_capsregular';
     src: url('/fonts/Six Caps/adamina-regular-webfont.woff2') format('woff2'),
          url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-size: 120px;
+}
+
+/* Set height to 100% for relevant containers */
+html, body, #content-div, #afl-div, #app-div{
+    height: 100%;
+}
+
+/* Centre these divs */
+#app, #afl-logo{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+/* These divs are not relative to its parent div*/
+#afl-logo, #footy-label{
+    position: absolute;
+}
+
+#app{
+    position: relative;
+}
+
+#afl-div{
+    background-color: #5772FF;
+}
+
+#afl-logo{
+    width: 95%;
+    height: auto;
+}
+
+#footy-label{
+    font-size: 80px;
     right: 50px;
     bottom: 1px;
-    position: absolute;
     z-index: -1;
     color: #44CCCC;
     opacity: 25%;
@@ -56,4 +58,16 @@ html, body{
 
 .row{
     margin: 0px;
+}
+
+@media only screen and (max-width: 1530px){
+    #footy-label{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    html, body{
+        min-height: 101%;
+    }
 }

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class= "application">
         <div class="heading">
             <div class="heading-text">
                 Quinn's AFL Team Generator
@@ -100,6 +100,10 @@ export default {
     
 }
 
+.application{
+
+}
+
 .heading-text{
     transform: translate(-50%, -50%);
     left: 50%;
@@ -107,7 +111,7 @@ export default {
     font-family: six_capsregular;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 34px;
     line-height: 84px;
     position: absolute;
     white-space: nowrap;
@@ -161,6 +165,39 @@ export default {
 
 .button-div:hover{
     color: black;
+}
+
+@media only screen and (max-width: 375px){
+    .heading-text{
+        font-size: 20px;
+    }
+    .heading{
+        position: relative;
+        left: 50%;
+        height: 60px;
+        width: 374px;
+        margin-left: -187px;
+    }
+    .button-background{
+        width: 105px;
+        height: 53px;
+    }
+
+    .button-background-white{
+        width: 102px;
+        height: 50px;
+    }
+
+    .button-div{
+        top: 70%;
+        width: 170px;
+        height: 65px;
+        margin-top: 8px;
+    }
+
+    .button-text{
+        font-size: 16px;
+    }
 }
 
 </style>

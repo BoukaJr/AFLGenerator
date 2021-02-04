@@ -8,14 +8,14 @@
     </head>
     <body>
         <div class="row" id="app-div">
-            <div class="col-sm-6" id="afl-div">
+            <div class="col-lg-4" id="afl-div">
                 <img src="/images/AFL.png" id="afl-logo">
             </div>
-            <div class="col-sm-6" id="app-div">
+            <div class="col-lg-8" id="content-div">
                 <div id="app">
                     <application></application>
                 </div>
-                <div id="footy-logo">
+                <div id="footy-label">
                     FOOTY
                 </div>
             </div>

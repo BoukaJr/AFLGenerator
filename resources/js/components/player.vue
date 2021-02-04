@@ -38,14 +38,14 @@ export default{
 
 .player-container{
     justify-content: left;
-    width: 200px;
+    width: 175px;
     height: 110px;
     padding: 5px;
 }
 
 .background{
     margin: auto;
-    width: 170px;
+    width: 160px;
     height: 80px;
     border-radius: 22px;
     position: relative;
@@ -62,7 +62,7 @@ export default{
     font-family: six_capsregular;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 84px;
     position: absolute;
     white-space: nowrap;
@@ -76,22 +76,29 @@ export default{
     font-family: six_capsregular;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 84px;
     position: absolute;
     white-space: nowrap;
 }
 
-.position{
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    font-family: six_capsregular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 120px;
-    position: absolute;
-    white-space: nowrap;
+@media only screen and (max-width: 375px){
+    .player-container{
+        width: 110px;
+        height: 70px;
+        padding: 1px;
+    }
+    .background{
+        width: 100px;
+        height: 60px;
+    }
+    .player{
+        font-size: 10px;
+    }
+    .playerstats{
+        font-size: 8px;
+    }
 }
+
 
 </style>

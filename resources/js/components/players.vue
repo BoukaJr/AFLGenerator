@@ -2,102 +2,115 @@
     <div>
         <!-- Container for the forward line -->
         <div class="container">
-            <div id="position-logo">
-                FORWARD
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"FORWARD"'
+                :shortLogo='"F"'
+            />
             <div v-for="n in 3">
                 <player
                     :playerposition='"Forward"'
                     :aflplayer="forwards[(n-1)]"
                 />
             </div>
-            <div id="position-logo">
-                FORWARD
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"FORWARD"'
+                :shortLogo='"F"'
+            />
         </div>
         <!-- Container for the half forward line -->
         <div class="container">
-            <div id="position-logo">
-                HALF FORWARD
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"HALF FORWARD"'
+                :shortLogo='"HF"'
+            />
             <div v-for="n in 3">
                 <player
                     :playerposition='"Half Forward"'
                     :aflplayer="forwards[(n+2)]"
                 />
             </div>
-            <div id="position-logo">
-                HALF FORWARD
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"HALF FORWARD"'
+                :shortLogo='"HF"'
+            />
         </div>
         <!-- Container for the centre line -->
         <div class="container">
-            <div id="position-logo">
-                CENTRE
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"CENTRE"'
+                :shortLogo='"C"'
+            />
             <div v-for="n in 3"> 
                 <player
                     :playerposition='"Centre"'
                     :aflplayer="midfielders[(n)]"
                 />
             </div>
-            <div id="position-logo">
-                CENTRE
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"CENTRE"'
+                :shortLogo='"C"'
+            />
         </div>
         <!-- Container for the half back line -->
         <div class="container">
-            <div id="position-logo">
-                HALF BACK
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"HALF BACK"'
+                :shortLogo='"HB"'
+            />
             <div v-for="n in 3">
                 <player
                     :playerposition='"Half Back"'
                     :aflplayer="defenders[(n-1)]"
                 />
             </div>
-            <div id="position-logo">
-                HALF BACK
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"HALF BACK"'
+                :shortLogo='"HB"'
+            />
         </div>
         <!-- Container for the back line -->
         <div class="container">
-            <div id="position-logo">
-                BACK
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"BACK"'
+                :shortLogo='"B"'
+            />
             <div v-for="n in 3">
                 <player
                     :playerposition='"Back"'
                     :aflplayer="defenders[(n+2)]"
                 />
             </div>
-            <div id="position-logo">
-                BACK
-            </div>
+            <positionLogo id="position-logo-component"
+                :fullLogo='"BACK"'
+                :shortLogo='"B"'
+            />
         </div>
         <!-- Container for the followers -->
         <div>
             <div class="container">
-                <div id="position-logo">
-                    FOLLOWERS
-                </div>
+                <positionLogo id="position-logo-component"
+                    :fullLogo='"FOLLOWERS"'
+                    :shortLogo='"FOLL"'
+                />
                 <div v-for="n in 3"> 
                     <player
                         :playerposition='"Follower"'
                         :aflplayer="midfielders[(n+3)]"
                     />
                 </div>
-                <div id="position-logo">
-                    FOLLOWERS
-                </div>
+                <positionLogo id="position-logo-component"
+                    :fullLogo='"FOLLOWERS"'
+                    :shortLogo='"FOLL"'
+                />
             </div>
         </div>
         <!-- Containers for the interchange bench -->
         <div>
             <div class="container">
-                <div id="position-logo">
-                    INTERCHANGE
-                </div>
+                <positionLogo id="position-logo-component"
+                    :fullLogo='"INTERCHANGE"'
+                    :shortLogo='"I/C"'
+                />
                 <div>
                     <player
                         :playerposition='"Interchange"'
@@ -116,9 +129,10 @@
                         :aflplayer="forwards[6]"
                     />
                 </div>
-                <div id="position-logo">
-                    INTERCHANGE
-                </div>
+                <positionLogo id="position-logo-component"
+                    :fullLogo='"INTERCHANGE"'
+                    :shortLogo='"I/C"'
+                />
             </div>
         </div>
         <div>
@@ -136,11 +150,13 @@
 
 <script>
 import player from "./player"
+import positionLogo from "./positionLogo.vue"
 
 export default {
     props: ['forwards', 'midfielders', 'defenders'],
     components:{
-        player
+        player,
+        positionLogo
     }
 }
 </script>
@@ -155,20 +171,8 @@ export default {
     height: 94px;
 }
 
-#position-logo{
-    font-family: 'six_capsregular';
-    src: url('/fonts/Six Caps/adamina-regular-webfont.woff2') format('woff2'),
-         url('/fonts/Six Caps/adamina-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    z-index: -1;
-    color: #44CCCC;
-    opacity: 25%;
-    top: 25%;
-    position: relative;
+#position-logo-component{
     flex-grow: 1;
-    text-align: center;
 }
 
 @media only screen and (max-width: 2160px){
@@ -176,4 +180,16 @@ export default {
         display: none;
     }
 }
+
+@media only screen and (max-width: 375px){
+    .container{
+        justify-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 70px;
+    }
+}
+
 </style>
