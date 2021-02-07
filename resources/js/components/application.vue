@@ -1,13 +1,16 @@
 <template>
     <div class= "application">
+
         <div class="heading">
             <div class="heading-text">
                 Quinn's AFL Team Generator
             </div>
         </div>
+
         <div class="players">
             <players :forwards="forwards" :midfielders="midfielders" :defenders="defenders"/>
         </div>
+
         <div class="button-div" v-on:click="rerollPlayers">
             <div class="button-background">
             </div>
@@ -17,6 +20,7 @@
                 Create team
             </div>
         </div>
+        
     </div>
 </template>
 
@@ -88,6 +92,13 @@ export default {
     font-style: normal;
 }
 
+.heading-text, .button-background, .button-background-white, .button-text{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
 .heading{
     position: relative;
     left: 50%;
@@ -96,33 +107,14 @@ export default {
     margin-left: -225px;
 }
 
-.players{
-    
-}
-
-.application{
-
-}
-
 .heading-text{
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    font-family: six_capsregular;
-    font-style: normal;
-    font-weight: normal;
     font-size: 34px;
     line-height: 84px;
-    position: absolute;
     white-space: nowrap;
     color: #5772FF;
 }
 
 .button-background{
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    position: absolute;
     width: 170px;
     height: 65px;
     background: #5772FF;
@@ -130,10 +122,6 @@ export default {
 }
 
 .button-background-white{
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    position: absolute;
     width: 167px;
     height: 62px;
     background: #FFFFFF;
@@ -151,15 +139,8 @@ export default {
 }
 
 .button-text{
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    font-family: six_capsregular;
-    font-style: normal;
-    font-weight: normal;
     font-size: 22px;
     line-height: 84px;
-    position: absolute;
     white-space: nowrap;
 }
 

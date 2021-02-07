@@ -1,11 +1,14 @@
 <template>
     <div>
+
         <div id="position-logo-full">
             {{fullLogo}}
         </div>
+
         <div id="position-logo-short">
             {{shortLogo}}
         </div>
+        
     </div>
 </template>
 
@@ -21,7 +24,7 @@ export default {
     font-size: 24px;
     z-index: -1;
     color: #44CCCC;
-    opacity: 25%;
+    opacity: 35%;
     top: 25%;
     position: relative;
     flex-grow: 1;

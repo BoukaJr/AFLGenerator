@@ -10939,7 +10939,8 @@ body,
 /* These divs are not relative to its parent div*/
 
 #afl-logo,
-#footy-label {
+#footy-label,
+#admin-label {
   position: absolute;
 }
 
@@ -10951,18 +10952,31 @@ body,
   background-color: #5772FF;
 }
 
+#afl-div-admin {
+  background-color: #000000;
+}
+
 #afl-logo {
-  width: 90%;
+  width: 80%;
   height: auto;
 }
 
-#footy-label {
+#footy-label,
+#admin-label {
   font-size: 80px;
   right: 50px;
   bottom: 1px;
   z-index: -1;
   color: #44CCCC;
-  opacity: 25%;
+  opacity: 35%;
+}
+
+#footy-label {
+  color: #44CCCC;
+}
+
+#admin-label {
+  color: #000000;
 }
 
 .row {
